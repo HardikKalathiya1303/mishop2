@@ -1,0 +1,147 @@
+body{
+  font-family: 'Permanent Marker', cursive !important;
+}
+.navbar-brand{
+	height:60px;width: 80px;
+}
+.set-cart{
+	height:40px;width: 40px;
+}
+.navbar-expand-sm{
+	background-color: #000;
+}
+.nav-links{
+	color:#fff;
+}
+.nav-item .nav-links{
+	text-decoration: none;
+}
+.nav-links:hover{
+	color:#fff;
+}
+.set-btn button{
+	background-color: #fff;
+	outline: none !important;
+	border-radius: 10px;
+	border:2px solid #fff;
+}
+.img-container{
+	height:300px;
+}
+
+.img-container img{
+	height:100%;
+	width: 100%;
+}
+.cart-pro{
+	height:42px !important;
+	width: 45px !important;
+}
+.card-footer{
+	background: transparent;
+	background-color: #fff !important; 
+	border: none !important;
+	border-top: transparent;
+	transition: all 1s linear;
+}
+.card{
+	border-color: transparent;
+	transition: all 1s linear;
+	box-shadow: 0px 0px 2px 2px #777;
+}
+
+ .img-container{
+ 	position: relative;
+}
+.img-container:hover .card-img-top{
+	transform: scale(1.1);
+
+}
+.card-img-top{
+	transition: all 1s linear;
+}
+
+.cart-btn{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #fff;
+	border:1px solid #fff;
+	outline: none;
+	font-size: 1.4rem;
+	
+}
+.img-container:hover .cart-btn{
+	transform: translate(0,0);
+	border:1px solid #fff;
+	outline: none;
+}
+.back-pro{
+   background-color: #000;
+   color:#fff;
+   height:40px;
+   outline: none;
+   border:1px solid #000;
+}
+.back-pro:nth-child(2){
+	margin-left: 30px;
+}
+.back-pro:hover{
+	border:1px solid #000;
+}
+
+.modal-back{
+   background-color: #000;
+   color:#fff;
+   height:40px;
+   outline: none;
+   border:1px solid #000;
+}
+
+.modal-back:nth-child(1)
+{
+  margin-right: 10px;
+}
+
+.ModalContainer{
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	bottom: 0;
+}
+#modal{
+	background: #fff;
+}
+.btn-black{
+	background: transparent;
+	text-transform: capitalize;
+	font-size: 0.8rem !important;
+	color:#000;
+	border:3px solid #000 !important;
+}
+.btn-black:hover{
+	background: #000;
+	color:#fff !important; 
+}
+.cart-icon img{
+	height:30px;
+	width: 30px;
+	cursor: pointer;
+}
+.nav-item h5{
+	color:#fff;
+	letter-spacing: 5px;
+}
+.foot h5{
+	letter-spacing: 1px;
+	color:#fff;
+}
+.productlist{
+	margin-top:30px;
+	margin-bottom: 20px;
+}
